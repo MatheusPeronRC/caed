@@ -33,6 +33,7 @@ py -3.12 --version
 **2. Crie o ambiente virtual e instale as dependências:**
 
 ```powershell
+py -3.12 baixar_recursos.py
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m nltk.downloader wordnet omw-2.0
